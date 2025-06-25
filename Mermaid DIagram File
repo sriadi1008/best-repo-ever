@@ -1,0 +1,23 @@
+Developers 
+    |
+    v
+GitLab Repository (Salesforce & AWS)
+    |
+    v
+GitLab CI/CD
+    |---------------------------|
+    |                           |
+Salesforce Pipeline           AWS Pipeline
+    |                           |
+    |                           |
+Tests, Build, Package       IaC, Build, Test
+Scratch Orgs, Delta Deployment  Terraform/CDK, Blue/Green
+    |                           |
+    |                           |
+Deployment to Salesforce       Deployment to AWS
+    |                           |
+    v                           v
+Feedback & Status Reports --> Slack/MS Teams, Jira/Asana
+    |
+    v
+Continuous Monitoring & Optimization
